@@ -1,0 +1,49 @@
+
+<div class="row ">
+    <div class="row result result">
+        Final Result
+    </div>
+    <div class="col-md-12 vote">
+        <h2>Vote Result</h2>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading men panelTex">PartyA</div>
+                <div class="panel-body">
+                    <div class="col-md-12 ico">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="col-sm-12 valid"><span class="notch"><i class="fa fa-circle" aria-hidden="true"></i></span>Votes:<span class="validxl">{{voteCountA}}</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading women panelTex">PartyB</div>
+                <div class="panel-body">
+                    <div class="col-md-12 icowo">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="col-sm-12 invalid"><span class="notch"><i class="fa fa-circle" aria-hidden="true"></i></span>Votes:<span class="invalidxl">{{voteCountB}}</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <div class="row">
+   {{#if winA}}
+<h1 style="color:green"> Congratulations !!!!..Part A is winner..</h1>
+   {{/if}}
+      {{#if winB}}
+<h1 style="color:green"> Congratulations !!!!..Part B is winner..</h1>
+   {{/if}}
+      {{#if nowin}}
+<h1 style="color:green"> oops!!..NO one win..</h1>
+   {{/if}}
+    </div>
+</div>

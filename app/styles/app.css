@@ -1,0 +1,139 @@
+.container-fluid {
+    
+    padding-bottom: 70px;
+}
+.bg-1 { 
+background-color: #1abc9c; /* Green */
+color: #ffffff;
+}
+.container {
+background-color: aquamarine
+}
+.btn {
+
+display: initial;
+padding: 16px 12px;
+margin-bottom: 0;
+font-size: 25p;
+font-weight: 40;
+line-height: 1.428571;
+
+white-space: inherit;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+background-color: crimson;
+border: 1px solid transparent;
+border-radius: 2px;
+}
+.panelTex{
+color: #ffffff !important;
+font-size: 18px;
+text-align: center;
+font-weight: 700;
+}
+.ico{
+font-size: 80px;
+text-align: center;
+color: #006400 ;
+}
+.icowo{
+font-size: 80px;
+text-align: center;
+color: #00008b ;
+}
+.icotr{
+font-size: 80px;
+text-align: center;
+color: #ff0000 ;
+}
+.men{
+background-color: #006400 !important;
+}
+.women{
+background-color: #00008b !important;
+}
+.col-md-12 {
+width: 100%;
+margin-top: 30px;
+}
+.panel {
+margin-bottom: 20px;
+background-color: gainsboro;
+border: 1px solid transparent;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.col-md-4 {
+width: 33.33333333%;
+color: navy;
+}
+.result{
+    font-size: 30px;
+    background-color: #1abc9c ;
+    color: #ffffff ;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+}
+.vote{
+    text-align: center;
+    text-decoration: underline;
+}
+.panelTex{
+    color: #ffffff !important;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+.ico{
+    font-size: 80px;
+    text-align: center;
+    color: #006400 ;
+}
+.icowo{
+    font-size: 80px;
+    text-align: center;
+    color: #00008b ;
+}
+.icotr{
+    font-size: 80px;
+    text-align: center;
+    color: #ff0000 ;
+}
+.men{
+    background-color: #006400 !important;
+}
+.women{
+    background-color: #00008b !important;
+}
+.transgender{
+    background-color: #ff0000 !important;
+}
+.valid{
+    font-size: 20px;
+    color: #006400;
+    text-align: left;
+}
+.invalid{
+    font-size: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+.validxl{
+    font-size: 30px;
+    color: #006400;
+    text-align: left;
+}
+.invalidxl{
+    font-size: 30px;
+    color: #ff0000;
+    text-align: left;
+}
+.notch{
+    font-size: 12px !important;
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
